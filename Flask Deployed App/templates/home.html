@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+{% block pagetitle %}
+Plant Disease Detection
+{% endblock pagetitle %}
+{% block body %}
+<style>
+  body{
+    overflow-x: hidden;
+  }
+
+  
+
+</style>
+
+
+<div class="row mb-5 text-center text-white ">
+    <div class="col-lg-10 mx-auto">
+        <h1 class="display-4" style="padding-top: 2%;font-weight: 400;color: rgb(4, 54, 4);"><b>🍁Plant Disease
+                Detection🍁 </b></h1>
+        <p class="lead" style="font-weight: 500;color: black;">This DenseNet Model Will Help To Detect Disease From Following Fruites And Veggies</p>
+    </div>
+</div>
+
+<center class="">
+    <a href="/index">
+    <button class = "bttn-pill bttn-lg btn-success"><b style="color: black;">Try Now</b></button>
+</a>
+</center>
+
+<!-- Image Grid -->
+<div class="container my-4 py-4">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
+      <div class="col">
+          <div class="card rounded-lg">
+              <img src="/static/grid/apples.jpg" height="220" width="200" class="card-img-top p-2 rounded-lg" alt="Apple">
+              <div class="card-body text-center">
+                  <h5 class="card-title">Apple</h5>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card rounded-lg">
+            <img src="/static/grid/blueberry.jpg" height="220" width="200" class="card-img-top p-2 rounded-lg" alt="Blueberry">
+            <div class="card-body text-center">
+                <h5 class="card-title">Blueberry</h5>
+            </div>
+        </div>
+    </div>
+      <div class="col">
+        <div class="card rounded-lg">
+            <img src="/static/grid/soybean.jfif" height="220" width="200" class="card-img-top p-2 rounded-lg" alt="Apple">
+            <div class="card-body text-center">
+                <h5 class="card-title">Soybean</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card rounded-lg">
+          <img src="/static/grid/potato.jpg" height="220" width="200" class="card-img-top p-2 rounded-lg" alt="Apple">
+          <div class="card-body text-center">
+              <h5 class="card-title">Potato</h5>
+          </div>
+      </div>
+  </div>
+ 
+<div class="col">
+  <div class="card rounded-lg">
+      <img src="/static/grid/tomato.jpg" height="220" width="200" class="card-img-top p-2 rounded-lg" alt="Tomato">
+      <div class="card-body text-center">
+          <h5 class="card-title">Tomato</h5>
+      </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card rounded-lg">
+      <img src="/static/grid/blueberry.jpg" height="220" width="200" class="card-img-top p-2 rounded-lg" alt="Apple">
+      <div class="card-body text-center">
+          <h5 class="card-title">Blueberry</h5>
+      </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card rounded-lg">
+      <img src="/static/grid/strawberry.jpg" height="220" width="200" class="card-img-top p-2 rounded-lg" alt="Apple">
+      <div class="card-body text-center">
+          <h5 class="card-title">Strawberry</h5>
+      </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card rounded-lg">
+      <img src="/static/grid/pepper.jpg" height="220" width="200" class="card-img-top p-2 rounded-lg" alt="Pepper">
+      <div class="card-body text-center">
+          <h5 class="card-title">Pepper</h5>
+      </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card rounded-lg">
+      <img src="/static/grid/corn.jpg" height="220" width="200" class="card-img-top p-2 rounded-lg" alt="Corn">
+      <div class="card-body text-center">
+          <h5 class="card-title">Corn</h5>
+      </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card rounded-lg">
+      <img src="/static/grid/orange.jpg" height="220" width="200" class="card-img-top p-2 rounded-lg" alt="Corn">
+      <div class="card-body text-center">
+          <h5 class="card-title">Orange</h5>
+      </div>
+  </div>
+</div>
+</div>
+      
+      <!-- Repeat for more fruits/cards -->
+  </div>
+</div>
+
+
+{% endblock body %}
